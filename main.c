@@ -3,13 +3,15 @@
 
 int main()
 {
-    int n,i,c;
-    printf("entre le nombre n");
-    scanf("%d",&n);
-    printf("table de multiplication de 1 a 10 et\n");
-     for(i=0;i<=10;i++){
-       c = i *n;
-     printf("%d * %d = %d\n",n,i,c);
+    int annee;
+    printf("entre une annee");
+    scanf("%d",&annee);
+    if(annee % 4 == 0 && annee % 100 !== 0)||annee = %400 = 0;{
+    printf("%d une annee est bissextile\n",annee) ;
+   } else{
+
+    printf("%d une annee non bissextile\n",annee);
+
      }
     return 0;
 }
